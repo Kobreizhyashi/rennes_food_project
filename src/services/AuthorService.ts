@@ -1,4 +1,4 @@
-export default class CommentService {
+export default class AuthorService {
     async findAll() {
         return null;
     }

@@ -2,7 +2,10 @@
 
 #### An API for food project with one of my mate :-)
 
-Code Folder's  architecture
+This project is a good way for me to get my foot back on the ladder with NodeJS after few month without Javascript.
+If you watch inside the repository, You'll notice that actually this has been realized with Typescript which is better in my opinion.  
+
+Code Folder's architecture (shamefully stolen but.. classic) 
 ```
 src
 ├── app.js		app entry point
@@ -14,3 +17,5 @@ src
 ├── /subscribers	async event handlers
 └── /test               test suites
 ```
+
+_NB: **conf_to_rename_env** file must be renamed to **conf.env**_ 
