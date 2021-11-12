@@ -4,6 +4,8 @@ const start = async (): Promise<any> => {
     await Bootstrap.init();
 }
 
-start();
+start().then(_ => {
+    console.log("project launched")
+});
 
 export default start;

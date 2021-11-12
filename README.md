@@ -18,4 +18,4 @@ src
 └── /test               test suites
 ```
 
-_NB: **conf_to_rename_env** file must be renamed to **conf.env**_ 
+_NB: **conf_to_rename_env** file must be renamed to **.env**_ 
