@@ -10,7 +10,8 @@ export const CommentSchema: Schema = new Schema({
         required: true,
     },
     authorId: {
-        type: Number,
+        type: Schema.Types.ObjectId,
+        ref: 'Author',
         required: true,
     },
     content: {

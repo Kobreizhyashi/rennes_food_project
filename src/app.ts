@@ -1,12 +1,9 @@
-import express from 'express';
+import Bootstrap from "./bootstrap";
 
-const app = express();
-const port : number = 8080;
+const start = async (): Promise<any> => {
+    await Bootstrap.init();
+}
 
-app.get('/', (req, res) => {
-    res.send('Hello there');
-});
+start();
 
-app.listen(port, () => {
-    console.log(`Runnin' on ${port} 🚀`);
-});
+export default start;

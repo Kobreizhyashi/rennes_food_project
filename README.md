@@ -13,8 +13,8 @@ src
 ├── /config		config settings, env variables
 ├── /services	        service layer: business logic
 ├── /models		data access layer: database models
-├── /scripts		miscellaneous NPM scripts
-├── /subscribers	async event handlers
+├── /scripts		miscellaneous NPM scripts (if needed)
+├── /subscribers	async event handlers (if needed)
 └── /test               test suites
 ```
 

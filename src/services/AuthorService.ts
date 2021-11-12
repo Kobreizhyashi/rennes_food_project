@@ -1,5 +1,6 @@
 export default class AuthorService {
     async findAll() {
-        return null;
+        console.log("COUCOU");
     }
 }
+
